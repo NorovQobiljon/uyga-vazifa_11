@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100vh;
+    background: #1F5E37;
+}
+
+h1 {
+    color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+nav a {
+    color: blue;
+    font-weight: 600;
+    font-size: 18ox;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+    color: #FF7B4E;
+    font-weight: 600;
+    font-size: 18ox;
+    border-bottom: 1px solid transparent;
+}
+
+nav button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color:white;
+    background-color: gray;
+    border: none;
+    font-weight: bold;
+}
+
+nav button:hover {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    background-color: #FF7B4E;
+    border: none;
+}
+
+.headeer {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.header-right-img {
+    width: 745px;
+}
+
+.header-title {
+    font-size: 60px;
+    width: 600px;
+    padding: 20px 0px;
+    color: white;
+}
+
+.header-text {
+    color: #FFFFFF40;
+}
+
+.my-self {
+    background-color: gray;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.my-self:hover {
+    background-color: white;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.header-btns {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: black;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+}
+
+.header-btns:hover {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    background-color: #FF7B4E;
+    border: none;
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 111px;
+}
+
+.head-self {
+    font-weight: 600;
+    color: #0F1F1C;
+    font-size: 30px;
+}
+
+.head-title {
+    color: #0F1F1C;
+    font-weight: 600;
+    font-size: 55px;
+    padding-top: 10px;
+}
+
+.head-text {
+    width: 290px;
+    height: 80px;
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.head-btns {
+    background-color: #1F5E37;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.head-btns:hover {
+    background-color: #FF7B4E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-around;
+}
+
+.section-self {
+    width: 500px;
+    height: 135px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.section-logo {
+    display: flex;
+    align-items: center;
+}
+
+.section-text1 {
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.section-img {
+    background: #FF7B4E;
+    border-radius: 50%;
+}
+
+.section-text2 {
+    width: 380px;
+    height: 65px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    color: gray;
+}
+
+main {
+    text-align: center;
+
+}
+
+.main-list {
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+
+.main-btns {
+    background-color: #1F5E37;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.main-btns:hover {
+    background-color: #FF7B4E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 55px;
+}
+.footer-btns{
+    background-color: #1F5E37;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+.footer-btns:hover{
+    background-color: #FF7B4E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+.footer-email{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    gap: 40px;
+
+
+}
+
